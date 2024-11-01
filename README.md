@@ -29,3 +29,30 @@ Estas columnas, más la columna **battleground**, están en el archivo `wowbgs.c
 - **TP**: Cumbres Gemelas.
 - **WG**: Garganta Grito de Guerra.
 
+-----------------------------------
+
+# Análisis del Dataset de Campos de Batalla
+
+En este proyecto, se realiza una exhaustiva limpieza y modificación del dataset, añadiendo nuevas variables que enriquecen la información disponible. La primera etapa consiste en llevar a cabo un análisis exploratorio del dataset para comprender las distribuciones de las diferentes clases y facciones presentes en los campos de batalla. Este análisis inicial nos permite identificar patrones y tendencias, y llegar a las primeras conclusiones sobre el comportamiento de los jugadores en distintos escenarios.
+
+---
+
+Posteriormente, se prepara el dataset para la implementación de modelos de machine learning. Durante este proceso, se eliminan variables altamente correlacionadas, como la variable de honor, que pueden inducir al overfitting en los modelos. Además, se aplican técnicas como el one-hot encoding y el mean encoding, junto con filtrado y otras transformaciones, para asegurar que el modelo pueda aprender de manera efectiva.
+
+A continuación, se lleva a cabo el análisis predictivo utilizando tres modelos diferentes:
+1. **Regresión Logística**: Un modelo clásico que se utiliza para problemas de clasificación binaria.
+2. **KNN (K-Nearest Neighbors)**: Un algoritmo basado en la proximidad de los puntos de datos en el espacio de características.
+3. **Árbol de Decisión**: Este modelo se destaca en este análisis, ya que proporciona el mejor rendimiento en términos de precisión y métricas de evaluación.
+
+Los resultados obtenidos con el **DecisionTreeClassifier** son prometedores:
+- **Precisión**: 0.783
+- **AUC en entrenamiento**: 0.865
+- **AUC en prueba**: 0.856
+- **Sensibilidad**: 0.783
+- **Especificidad**: 0.782
+- **F1 Score**: 0.791
+
+Estas métricas indican que el modelo es capaz de clasificar correctamente una buena parte de las instancias. 
+
+Finalmente, se alcanzan conclusiones interesantes, donde se identifican condiciones clave que afectan el rendimiento de los jugadores. Entre estas condiciones destacan aspectos como la contribución a las muertes en el campo de batalla y la facción a la que pertenece el jugador. Estas observaciones no solo enriquecen nuestra comprensión del juego, sino que también pueden guiar futuras estrategias de mejora y optimización del rendimiento de los jugadores.
+
