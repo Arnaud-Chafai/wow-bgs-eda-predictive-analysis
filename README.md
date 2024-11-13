@@ -91,7 +91,6 @@ El modelo con los mejores resultados en precisión y balance entre métricas fue
 ## Conclusiones
 La variable más importante en el modelo final fue **HK** (número de asesinatos en los que el jugador o su grupo contribuyeron), seguida de la facción (Horda) y la variable **D** (número de veces que el jugador murió). Estos resultados proporcionan una visión profunda sobre los factores más decisivos en el éxito de los jugadores en los campos de batalla.
 
----
 ![Feature](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Features.png)
 -----------------------------------
 
