@@ -1,6 +1,6 @@
 # Análisis del Dataset de Campos de Batalla
 
-![Portada de World of Warcraft]()
+![Portada de World of Warcraft](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Caratula.jpg)
 ## Descripción del Dataset
 
 - **Code**: código del campo de batalla (no es necesario para el análisis).
