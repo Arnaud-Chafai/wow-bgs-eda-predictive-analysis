@@ -1,6 +1,6 @@
 # Análisis del Dataset de Campos de Batalla
 
-![Portada de World of Warcraft](ruta/de/tu/imagen.jpg)
+![Portada de World of Warcraft](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/AUC.png)
 
 En este proyecto, se realiza una exhaustiva limpieza y modificación del dataset, añadiendo nuevas variables que enriquecen la información disponible. La primera etapa consiste en un análisis exploratorio del dataset para comprender las distribuciones de las diferentes clases y facciones en los campos de batalla. Este análisis permite identificar patrones y tendencias importantes, y establecer conclusiones preliminares.
 
