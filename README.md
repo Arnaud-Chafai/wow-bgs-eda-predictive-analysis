@@ -1,10 +1,10 @@
 # Análisis del Dataset de Campos de Batalla
 
-![Portada de World of Warcraft](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/AUC.png)
+![Portada de World of Warcraft]()
 
 En este proyecto, se realiza una exhaustiva limpieza y modificación del dataset, añadiendo nuevas variables que enriquecen la información disponible. La primera etapa consiste en un análisis exploratorio del dataset para comprender las distribuciones de las diferentes clases y facciones en los campos de batalla. Este análisis permite identificar patrones y tendencias importantes, y establecer conclusiones preliminares.
 
-![Radar Plot](ruta/de/tu/imagen_radarplot.jpg)
+![Radar Plot](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/RadarPlot.png)
 
 ---
 
@@ -28,7 +28,7 @@ El modelo con peor desempeño fue **KNN**, con los siguientes resultados:
 
 El modelo con los mejores resultados en precisión y balance entre métricas fue **XGBoost**, optimizado mediante un ajuste bayesiano de hiperparámetros.
 
-![Historia de Optimización](ruta/de/tu/imagen_historia_optimización.jpg)
+![Historia de Optimización](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Optimizacion.png)
 
 ---
 
@@ -53,7 +53,7 @@ El modelo con los mejores resultados en precisión y balance entre métricas fue
 - **Error en Test**: 0.209
 - **Diferencia (Test - Train)**: 0.058
 
-![Curva ROC](ruta/de/tu/imagen_curva_ROC.jpg)
+![Curva ROC](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/AUC.png)
 
 ---
 
@@ -61,7 +61,7 @@ El modelo con los mejores resultados en precisión y balance entre métricas fue
 La variable más importante en el modelo final fue **HK** (número de asesinatos en los que el jugador o su grupo contribuyeron), seguida de la facción (Horda) y la variable **D** (número de veces que el jugador murió). Estos resultados proporcionan una visión profunda sobre los factores más decisivos en el éxito de los jugadores en los campos de batalla.
 
 ---
-![Feature](ruta/de/tu/imagen_curva_ROC.jpg)
+![Feature](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/AUC.png)
 -----------------------------------
 ## Descripción del Dataset
 
