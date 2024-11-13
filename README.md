@@ -1,7 +1,34 @@
 # Análisis del Dataset de Campos de Batalla
 
 ![Portada de World of Warcraft]()
+## Descripción del Dataset
 
+- **Code**: código del campo de batalla (no es necesario para el análisis).
+- **Faction**: facción del jugador (Horda o Alianza).
+- **Class**: clase del jugador (guerrero, paladín, cazador, pícaro, sacerdote, caballero de la muerte, chamán, mago, brujo, monje, druida, cazador de demonios).
+- **KB**: número de muertes letales infligidas por el jugador.
+- **D**: número de veces que el jugador murió.
+- **HK**: número de asesinatos en los que el jugador o su grupo contribuyeron.
+- **DD**: daño infligido por el jugador.
+- **HD**: sanación realizada por el jugador.
+- **Honor**: honor otorgado al jugador.
+- **Win**: 1 si el jugador ganó.
+- **Lose**: 1 si el jugador perdió.
+- **Rol**: "dps" si el jugador es un repartidor de daño; "heal" si el jugador se enfoca en sanar aliados. Ten en cuenta que no todas las clases pueden ser sanadores, solo chamán, paladín, sacerdote, monje y druida, pero todas las clases pueden ser repartidores de daño.
+- **BE**: algunas semanas hay un evento de bonificación, cuando el honor ganado se incrementa. 1 si el campo de batalla ocurrió durante esa semana.
+
+Estas columnas, más la columna **battleground**, están en el archivo `wowbgs.csv`. La columna *battleground* representa el tipo de campo de batalla:
+
+- **AB**: Cuenca de Arathi.
+- **BG**: Batalla por Gilneas.
+- **DG**: Grieta Aullante.
+- **ES**: Ojo de la Tormenta.
+- **SA**: Playa de los Ancestros.
+- **SM**: Minas Lonjaplata.
+- **SS**: Costa Hirviente.
+- **TK**: Templo de Kotmogu.
+- **TP**: Cumbres Gemelas.
+- **WG**: Garganta Grito de Guerra.
 En este proyecto, se realiza una exhaustiva limpieza y modificación del dataset, añadiendo nuevas variables que enriquecen la información disponible. La primera etapa consiste en un análisis exploratorio del dataset para comprender las distribuciones de las diferentes clases y facciones en los campos de batalla. Este análisis permite identificar patrones y tendencias importantes, y establecer conclusiones preliminares.
 
 ![Radar Plot](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/RadarPlot.png)
@@ -64,34 +91,4 @@ La variable más importante en el modelo final fue **HK** (número de asesinatos
 ---
 ![Feature](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Features.png)
 -----------------------------------
-
-
-## Descripción del Dataset
-
-- **Code**: código del campo de batalla (no es necesario para el análisis).
-- **Faction**: facción del jugador (Horda o Alianza).
-- **Class**: clase del jugador (guerrero, paladín, cazador, pícaro, sacerdote, caballero de la muerte, chamán, mago, brujo, monje, druida, cazador de demonios).
-- **KB**: número de muertes letales infligidas por el jugador.
-- **D**: número de veces que el jugador murió.
-- **HK**: número de asesinatos en los que el jugador o su grupo contribuyeron.
-- **DD**: daño infligido por el jugador.
-- **HD**: sanación realizada por el jugador.
-- **Honor**: honor otorgado al jugador.
-- **Win**: 1 si el jugador ganó.
-- **Lose**: 1 si el jugador perdió.
-- **Rol**: "dps" si el jugador es un repartidor de daño; "heal" si el jugador se enfoca en sanar aliados. Ten en cuenta que no todas las clases pueden ser sanadores, solo chamán, paladín, sacerdote, monje y druida, pero todas las clases pueden ser repartidores de daño.
-- **BE**: algunas semanas hay un evento de bonificación, cuando el honor ganado se incrementa. 1 si el campo de batalla ocurrió durante esa semana.
-
-Estas columnas, más la columna **battleground**, están en el archivo `wowbgs.csv`. La columna *battleground* representa el tipo de campo de batalla:
-
-- **AB**: Cuenca de Arathi.
-- **BG**: Batalla por Gilneas.
-- **DG**: Grieta Aullante.
-- **ES**: Ojo de la Tormenta.
-- **SA**: Playa de los Ancestros.
-- **SM**: Minas Lonjaplata.
-- **SS**: Costa Hirviente.
-- **TK**: Templo de Kotmogu.
-- **TP**: Cumbres Gemelas.
-- **WG**: Garganta Grito de Guerra.
 
