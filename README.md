@@ -30,6 +30,7 @@ Estas columnas, más la columna **battleground**, están en el archivo `wowbgs.c
 - **TP**: Cumbres Gemelas.
 - **WG**: Garganta Grito de Guerra.
 
+---
 
 En este proyecto, se realiza una exhaustiva limpieza y modificación del dataset, añadiendo nuevas variables que enriquecen la información disponible. La primera etapa consiste en un análisis exploratorio del dataset para comprender las distribuciones de las diferentes clases y facciones en los campos de batalla. Este análisis permite identificar patrones y tendencias importantes, y establecer conclusiones preliminares.
 
