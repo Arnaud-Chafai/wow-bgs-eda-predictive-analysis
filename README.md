@@ -26,13 +26,14 @@ El modelo con peor desempeño fue **KNN**, con los siguientes resultados:
 - Especificidad: 0.701
 - F1 Score: 0.686
 
+---
+
+## Reporte del Modelo XGBoost:
+
 El modelo con los mejores resultados en precisión y balance entre métricas fue **XGBoost**, optimizado mediante un ajuste bayesiano de hiperparámetros.
 
 ![Historia de Optimización](https://github.com/Arnaud-Chafai/wow-bgs-eda-predictive-analysis/blob/main/Screenshots/Optimizacion.png)
 
----
-
-## Reporte del Modelo XGBoost:
 
 ### 1. Métricas Básicas:
 - **Accuracy Train**: 0.849
